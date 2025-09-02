@@ -116,7 +116,7 @@ The Jupyter notebook (`DefineAndSolveMLProblem.ipynb`) contains the complete imp
 The project includes several evaluation visualizations to assess model performance:
 
 ### 1. ROC Curve (Logistic Regression)
-![ROC Curve - Logistic Regression](https://images/lr.png)  
+![ROC Curve - Logistic Regression](https://github.com/ninapappas/BTT-ML-Project/blob/main/images/lr.png)  
 The ROC curve for Logistic Regression illustrates the trade-off between true positive rate (sensitivity) and false positive rate (1 - specificity). The AUC provides a summary of the model’s discriminative ability.
 
 ### 2. ROC Curve (Random Forest)
