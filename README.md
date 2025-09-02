@@ -111,6 +111,23 @@ The Jupyter notebook (`DefineAndSolveMLProblem.ipynb`) contains the complete imp
 3. Run the Jupyter notebook sequentially
 4. The notebook will output model performance metrics and visualizations
 
+## 📊 Evaluation Visualizations
+
+The project includes several evaluation visualizations to assess model performance:
+
+### 1. ROC Curve (Logistic Regression)
+![ROC Curve - Logistic Regression](https://images/lr.png)  
+The ROC curve for Logistic Regression illustrates the trade-off between true positive rate (sensitivity) and false positive rate (1 - specificity). The AUC provides a summary of the model’s discriminative ability.
+
+### 2. ROC Curve (Random Forest)
+![ROC Curve - Random Forest](https://images/roc_curve_rf.png)  
+The ROC curve for Random Forest highlights how the ensemble model performs across different thresholds. The AUC score here can be compared directly with Logistic Regression to evaluate improvement.
+
+### 3. Prediction Output (College vs Not College)
+![Prediction Output](https://images/prediction_output.png)  
+This visualization shows the final model predictions, classifying individuals into **College** and **Not College** categories.
+
+
 ## Future Improvements
 
 - Address class imbalance more aggressively if needed
